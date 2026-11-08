@@ -38,7 +38,10 @@ const distDir = path.join(rootDir, "dist");
 const outputPath = path.join(distDir, "cli-startup-metadata.json");
 const extensionsDir = path.join(rootDir, "extensions");
 const ROOT_HELP_RENDER_TIMEOUT_MS = 120_000;
-const COMMAND_HELP_RENDER_TIMEOUT_MS = 120_000;
+// Each render is a full CLI boot competing with up to 8 sibling boots for
+// CPU; Windows renders were observed at 98-140s even idle (vs 27-48s with a
+// complete env), so keep real margin over the old 120s budget.
+const COMMAND_HELP_RENDER_TIMEOUT_MS = 300_000;
 const COMMAND_HELP_RENDER_MAX_OUTPUT_BYTES = 16 * 1024 * 1024;
 const COMMAND_HELP_RENDER_KILL_GRACE_MS = 5_000;
 // Each help render is an isolated CLI boot; concurrency only bounds process
@@ -381,6 +384,28 @@ function createIsolatedRootHelpRenderContext(
     OPENCLAW_DISABLE_BUNDLED_PLUGINS: "",
     OPENCLAW_STATE_DIR: stateDir,
   };
+  // Windows CLI boots resolve temp/config paths through these vars; without
+  // them browser help renders in 98-140s vs 27-48s with them and outlives
+  // the render timeout. TMPDIR's /tmp default is invalid on Windows.
+  for (const key of [
+    "SystemRoot",
+    "SYSTEMROOT",
+    "WINDIR",
+    "COMSPEC",
+    "PATHEXT",
+    "APPDATA",
+    "LOCALAPPDATA",
+    "USERPROFILE",
+    "USERNAME",
+    "TEMP",
+    "TMP",
+  ]) {
+    const value = process.env[key];
+    if (value) {
+      env[key] = value;
+    }
+  }
+  env.TMPDIR = process.env.TEMP ?? process.env.TMP ?? env.TMPDIR;
   const config: OpenClawConfig = {
     agents: {
       defaults: {
