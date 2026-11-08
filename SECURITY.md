@@ -6,7 +6,7 @@ This policy does two things: it gives researchers a clear disclosure path, and i
 
 The fastest useful reports show a current, reproducible boundary bypass with demonstrated impact. Scanner output, prompt-injection-only chains, or reports that rely on hostile users sharing one trusted gateway are usually not security vulnerabilities under this model.
 
-Security work is shared across a number of OpenClaw maintainers, including engineers and security researchers from organizations such as NVIDIA and Tencent. See the [maintainer list](CONTRIBUTING.md#maintainers).
+Security work for this repository is coordinated by its maintainer, **Jahid (mdjahid11978)**. See the [maintainer notes](CONTRIBUTING.md#maintainers).
 
 ## Shared Agents
 
@@ -16,15 +16,15 @@ Anyone who can operate an agent can make it do anything that agent can do. Sessi
 
 Report vulnerabilities directly to the repository where the issue lives:
 
-- **Core CLI and gateway** — [openclaw/openclaw](https://github.com/openclaw/openclaw)
-- **macOS desktop app** — [openclaw/openclaw](https://github.com/openclaw/openclaw) (apps/macos)
-- **iOS app** — [openclaw/openclaw](https://github.com/openclaw/openclaw) (apps/ios)
-- **Android app** — [openclaw/openclaw](https://github.com/openclaw/openclaw) (apps/android)
+- **Core CLI and gateway** — [Jahid11978/openclaw.ai](https://github.com/Jahid11978/openclaw.ai)
+- **macOS desktop app** — [Jahid11978/openclaw.ai](https://github.com/Jahid11978/openclaw.ai) (apps/macos)
+- **iOS app** — [Jahid11978/openclaw.ai](https://github.com/Jahid11978/openclaw.ai) (apps/ios)
+- **Android app** — [Jahid11978/openclaw.ai](https://github.com/Jahid11978/openclaw.ai) (apps/android)
 - **ClawHub** — [openclaw/clawhub](https://github.com/openclaw/clawhub)
 
 For issues that don't fit a specific repo, or if you're unsure, email **[security@openclaw.ai](mailto:security@openclaw.ai)** and we'll route it.
 
-For OpenClaw core issues, submit through a private [GitHub Security Advisory](https://github.com/openclaw/openclaw/security/advisories/new). Do not open a public issue or PR that discloses an unpatched vulnerability, exploit path, secret, or security-sensitive proof of concept.
+For OpenClaw core issues, submit through a private [GitHub Security Advisory](https://github.com/Jahid11978/openclaw.ai/security/advisories/new). Do not open a public issue or PR that discloses an unpatched vulnerability, exploit path, secret, or security-sensitive proof of concept.
 
 Maintainers may close, hide, delete, or otherwise take down public issues and PRs that disclose vulnerabilities or active security issues. We will redirect those reports through the private disclosure process so the issue can be triaged and fixed without giving attackers a public playbook.
 

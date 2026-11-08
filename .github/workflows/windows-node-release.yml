@@ -281,5 +281,5 @@ jobs:
           Get-ChildItem -LiteralPath dist -File |
             Sort-Object Name |
             ForEach-Object {
-              "- https://github.com/openclaw/openclaw/releases/download/$env:RELEASE_TAG/$($_.Name)"
+              "- https://github.com/$env:GITHUB_REPOSITORY/releases/download/$env:RELEASE_TAG/$($_.Name)"
             } >> $env:GITHUB_STEP_SUMMARY

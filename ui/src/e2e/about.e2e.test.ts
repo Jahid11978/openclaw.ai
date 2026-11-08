@@ -84,7 +84,7 @@ suite.define(() => {
       const githubLink = hero.getByRole("link", { name: "GitHub", exact: true });
       await expect
         .poll(() => githubLink.getAttribute("href"))
-        .toBe("https://github.com/openclaw/openclaw");
+        .toBe("https://github.com/Jahid11978/openclaw.ai");
       await expect.poll(() => githubLink.getAttribute("target")).toBe("_blank");
       await expect.poll(() => githubLink.getAttribute("rel")).toContain("noopener");
       const discordLink = hero.getByRole("link", { name: "Discord", exact: true });

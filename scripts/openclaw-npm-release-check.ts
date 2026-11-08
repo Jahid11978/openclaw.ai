@@ -53,7 +53,7 @@ type NpmDistTagMirrorAuth = {
   hasAuth: boolean;
   source: "node-auth-token" | "npm-token" | "none";
 };
-const EXPECTED_REPOSITORY_URL = "https://github.com/openclaw/openclaw";
+const EXPECTED_REPOSITORY_URL = "https://github.com/Jahid11978/openclaw.ai";
 const OPTIONAL_LOCAL_EMBEDDING_RUNTIME_PACKAGE = "node-llama-cpp";
 const FS_SAFE_PACKAGE = "@openclaw/fs-safe";
 const REQUIRED_PACKED_PATHS = [

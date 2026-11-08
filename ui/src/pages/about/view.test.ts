@@ -57,7 +57,7 @@ describe("renderAbout", () => {
     expect(links.map((link) => link.getAttribute("href"))).toEqual([
       "https://openclaw.ai",
       "https://docs.openclaw.ai",
-      "https://github.com/openclaw/openclaw",
+      "https://github.com/Jahid11978/openclaw.ai",
       "https://discord.gg/clawd",
       "https://x.com/openclaw",
       "https://docs.openclaw.ai/releases",

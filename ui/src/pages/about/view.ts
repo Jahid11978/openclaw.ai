@@ -41,7 +41,7 @@ const ABOUT_LINKS: ReadonlyArray<{ href: string; icon: TemplateResult; label: ()
   { href: "https://openclaw.ai", icon: icons.globe, label: () => t("aboutPage.linkWebsite") },
   { href: "https://docs.openclaw.ai", icon: icons.book, label: () => t("aboutPage.linkDocs") },
   {
-    href: "https://github.com/openclaw/openclaw",
+    href: "https://github.com/Jahid11978/openclaw.ai",
     icon: brandIcons.github,
     label: () => t("aboutPage.linkGitHub"),
   },

@@ -1,6 +1,6 @@
 # OpenClaw 🦞 — Your assistant, on your devices, in your chats
 
-> **Maintained fork** — This repository is [Jahid11978/openclaw.ai](https://github.com/Jahid11978/openclaw.ai) on the [`jahids.ai`](https://github.com/Jahid11978/openclaw.ai/tree/jahids.ai) branch: a personal fork of [openclaw/openclaw](https://github.com/openclaw/openclaw) owned and maintained by **Jahid (mdjahid11978)**. Upstream project direction remains with the [OpenClaw Foundation](https://openclaw.org); this fork carries its own fixes, documentation, and build validation.
+> **Owned & maintained by [Jahid (mdjahid11978)](https://github.com/Jahid11978)** — This repository is [Jahid11978/openclaw.ai](https://github.com/Jahid11978/openclaw.ai) on the [`jahids.ai`](https://github.com/Jahid11978/openclaw.ai/tree/jahids.ai) branch: OpenClaw, built and maintained under the Jahid11978 account, with its own fixes, documentation, and build validation.
 
 <p align="center">
   <picture>
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Jahid11978/openclaw.ai"><img src="https://img.shields.io/badge/fork-Jahid11978%2Fopenclaw.ai-blue?style=flat-square&label=fork" alt="Fork: Jahid11978/openclaw.ai"></a>
+  <a href="https://github.com/Jahid11978/openclaw.ai"><img src="https://img.shields.io/badge/repo-Jahid11978%2Fopenclaw.ai-blue?style=flat-square&label=repo" alt="Repo: Jahid11978/openclaw.ai"></a>
   <a href="https://www.npmjs.com/package/openclaw"><img src="https://img.shields.io/npm/v/openclaw?style=flat-square&label=npm" alt="npm version"></a>
   <a href="https://nodejs.org"><img src="https://img.shields.io/node/v/openclaw?style=flat-square" alt="Node.js version"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License: MIT"></a>
@@ -95,11 +95,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow and the [so
 
 ## Community
 
-OpenClaw is developed in the open by the [OpenClaw Foundation](https://openclaw.org), a non-profit. See [CONTRIBUTING.md](CONTRIBUTING.md) for maintainers and contribution guidelines; AI-assisted PRs are welcome.
+OpenClaw is developed in the open by **[Jahid (mdjahid11978)](https://github.com/Jahid11978)**. See [CONTRIBUTING.md](CONTRIBUTING.md) for maintainers and contribution guidelines; AI-assisted PRs are welcome.
 
-**Fork governance:** this repository is [Jahid11978/openclaw.ai](https://github.com/Jahid11978/openclaw.ai), maintained by **Jahid (mdjahid11978)**. Fork-specific fixes and documentation land here on the `jahids.ai` branch; upstream coordination, issue tracking, and release governance stay with the Foundation at [openclaw/openclaw](https://github.com/openclaw/openclaw).
+**Ownership:** this repository is [Jahid11978/openclaw.ai](https://github.com/Jahid11978/openclaw.ai), owned and maintained by **Jahid (mdjahid11978)**. Fixes, documentation, issue tracking, and release builds are handled here on the `jahids.ai` branch.
 
-Use the [issue chooser](https://github.com/openclaw/openclaw/issues/new/choose) for bugs and feature requests, ask setup questions in [Discord](https://discord.gg/clawd), and report vulnerabilities through [SECURITY.md](SECURITY.md). New capabilities usually belong in plugins built on the [plugin SDK](https://docs.openclaw.ai/plugins/building-plugins) and shared through [ClawHub](https://clawhub.ai).
+Use the [issue chooser](https://github.com/Jahid11978/openclaw.ai/issues/new/choose) for bugs and feature requests, ask setup questions in [Discord](https://discord.gg/clawd), and report vulnerabilities through [SECURITY.md](SECURITY.md). New capabilities usually belong in plugins built on the [plugin SDK](https://docs.openclaw.ai/plugins/building-plugins) and shared through [ClawHub](https://clawhub.ai).
 
 OpenClaw was built for **Molty**, a space lobster AI assistant, by Peter Steinberger and the community. Explore the [project lore](https://docs.openclaw.ai/start/lore), [soul.md](https://soul.md), [Peter's site](https://steipete.me), [Star History](https://www.star-history.com/#openclaw/openclaw&type=date&legend=top-left), and [@openclaw](https://x.com/openclaw).
 
@@ -311,4 +311,4 @@ clawtributors:hidden:end -->
 
 ## License
 
-[MIT](LICENSE) © Jahid (mdjahid11978) and OpenClaw Foundation. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for incorporated or adapted code.
+[MIT](LICENSE) © Jahid (mdjahid11978). See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for incorporated or adapted code.
