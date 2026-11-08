@@ -1,5 +1,7 @@
 # OpenClaw 🦞 — Your assistant, on your devices, in your chats
 
+> **Maintained fork** — This repository is [Jahid11978/openclaw.ai](https://github.com/Jahid11978/openclaw.ai) on the [`jahids.ai`](https://github.com/Jahid11978/openclaw.ai/tree/jahids.ai) branch: a personal fork of [openclaw/openclaw](https://github.com/openclaw/openclaw) owned and maintained by **Jahid (mdjahid11978)**. Upstream project direction remains with the [OpenClaw Foundation](https://openclaw.org); this fork carries its own fixes, documentation, and build validation.
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-banner-light.png">
@@ -8,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/openclaw/openclaw/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/openclaw/openclaw/ci.yml?branch=main&style=flat-square&label=ci" alt="CI status"></a>
+  <a href="https://github.com/Jahid11978/openclaw.ai"><img src="https://img.shields.io/badge/fork-Jahid11978%2Fopenclaw.ai-blue?style=flat-square&label=fork" alt="Fork: Jahid11978/openclaw.ai"></a>
   <a href="https://www.npmjs.com/package/openclaw"><img src="https://img.shields.io/npm/v/openclaw?style=flat-square&label=npm" alt="npm version"></a>
   <a href="https://nodejs.org"><img src="https://img.shields.io/node/v/openclaw?style=flat-square" alt="Node.js version"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License: MIT"></a>
@@ -82,8 +84,8 @@ Tools run on the host for the main session unless you configure sandboxing. Read
 The repository is a pnpm workspace. Plain `npm install` at the repository root is not supported.
 
 ```bash
-git clone https://github.com/openclaw/openclaw.git
-cd openclaw
+git clone https://github.com/Jahid11978/openclaw.ai.git
+cd openclaw.ai
 pnpm install
 pnpm build
 pnpm ui:build
@@ -94,6 +96,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow and the [so
 ## Community
 
 OpenClaw is developed in the open by the [OpenClaw Foundation](https://openclaw.org), a non-profit. See [CONTRIBUTING.md](CONTRIBUTING.md) for maintainers and contribution guidelines; AI-assisted PRs are welcome.
+
+**Fork governance:** this repository is [Jahid11978/openclaw.ai](https://github.com/Jahid11978/openclaw.ai), maintained by **Jahid (mdjahid11978)**. Fork-specific fixes and documentation land here on the `jahids.ai` branch; upstream coordination, issue tracking, and release governance stay with the Foundation at [openclaw/openclaw](https://github.com/openclaw/openclaw).
 
 Use the [issue chooser](https://github.com/openclaw/openclaw/issues/new/choose) for bugs and feature requests, ask setup questions in [Discord](https://discord.gg/clawd), and report vulnerabilities through [SECURITY.md](SECURITY.md). New capabilities usually belong in plugins built on the [plugin SDK](https://docs.openclaw.ai/plugins/building-plugins) and shared through [ClawHub](https://clawhub.ai).
 
@@ -307,4 +311,4 @@ clawtributors:hidden:end -->
 
 ## License
 
-[MIT](LICENSE) © OpenClaw Foundation. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for incorporated or adapted code.
+[MIT](LICENSE) © Jahid (mdjahid11978) and OpenClaw Foundation. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for incorporated or adapted code.
